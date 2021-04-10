@@ -13,9 +13,15 @@ function Header() {
           alt="Amazon Logo"
         />
       </Link>
+        <div className="header__search">     
+            <input type="text" className="header__searchInput" />
+            <SearchIcon className="header__searchIcon" />
+        </div>
 
-      <input type="text" className="header__searchInput" />
-      <SearchIcon className="header__searchIcon" />
+        <div className="header__nav">
+            
+        </div>
+
     </nav>
   );
 }
